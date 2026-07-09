@@ -32,7 +32,7 @@ const questions = [
     ["Team 2", `"Tension lene ka nahi..."`, `"Sirf dene ka."`, "Munna Bhai M.B.B.S."],
     ["Team 3", `"Our business is our business..."`, `"...none of your business."`, "Race 3"],
     ["Team 4", `"Dosti ka ek usool hai, madam,"`, `"No sorry... no thank you."`, "Maine Pyar Kiya"],
-    ["Team 5", `"Meri dictionary mein 'impossible' word hai hi nahi."`, `"Achha? Kahan se kharidi aisi bakwaas dictionary?"`, "Baadshah"],
+    ["Team 5", `"Meri dictionary mein 'impossible' word hai hi nahi."`, `"Achha? Kahan se kharidi aisi bakwaas dictionary?"`, "Chennai Express"],
   ].map((q, i) => ({ type: "dialogue", title: "Dialogue Delivery: Round 1", badge: `D1 | Q${i+1}`, team: q[0], clue: q[1], answer: `${q[2]}<br><span class="small-note">Movie: ${q[3]}</span>` })),
 
   { type: "section", title: "Dialogue Delivery: Round 2", badge: "Hard Level" },

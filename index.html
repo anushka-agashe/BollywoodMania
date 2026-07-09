@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bollywood Mania | Interactive Quiz Game</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="curtain curtain-left"></div>
+  <div class="curtain curtain-right"></div>
+
+  <main class="app-shell">
+    <section class="stage">
+      <header class="topbar">
+        <div>
+          <div class="eyebrow" id="slideBadge">LIVE SHOW</div>
+          <h1 id="slideTitle">Bollywood Mania</h1>
+        </div>
+        <button class="pill" id="roundPill">Cinema Hud</button>
+      </header>
+
+      <section class="content-card" id="contentCard">
+        <div id="slideContent"></div>
+      </section>
+
+      <footer class="stage-footer">
+        <span>🎬 Lights</span>
+        <span>🍿 Camera</span>
+        <span>⭐ Bollywood Mania</span>
+        <span>🏆 Action</span>
+      </footer>
+    </section>
+
+    <aside class="hud">
+      <h2>Cinema Hud</h2>
+      <div class="timer-wrap">
+        <svg class="timer-ring" viewBox="0 0 120 120">
+          <circle cx="60" cy="60" r="48" class="ring-bg"></circle>
+          <circle cx="60" cy="60" r="48" class="ring-progress" id="ringProgress"></circle>
+        </svg>
+        <div class="timer-text" id="timerText">60</div>
+      </div>
+
+      <div class="timer-controls">
+        <button id="pauseBtn">⏸ Pause</button>
+        <button id="startBtn">▶ Start</button>
+        <button id="resetBtn">↻ Reset</button>
+      </div>
+
+      <div class="scoreboard" id="scoreboard"></div>
+
+      <div class="nav">
+        <button id="prevBtn">‹ Prev</button>
+        <button id="nextBtn">Next ›</button>
+      </div>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

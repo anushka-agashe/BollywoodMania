@@ -66,7 +66,7 @@ const questions = [
   { type: "section", title: "Bonus Round: Brand Celebrity Match", badge: "Wildcard" },
   ...[
     ["Open to All", "Frooti • TRESemme • Manyavar Mohey • Cadbury • Caprese", "Alia Bhatt"],
-    ["Open to All", "Manyavar • Ching's Secret • Bingo! • Slice • Tata Neu", "Ranveer Singh"],
+    ["Open to All", "Manyavar • Ching's Secret • Bingo! • Pepsi • Tata Neu", "Ranveer Singh"],
     ["Open to All", "Hyundai • Lux • BigBasket • D'Decor • Dubai Tourism", "Shah Rukh Khan"],
     ["Open to All", "Gujarat Tourism • Kalyan Jewellers • Parker • ICICI Bank • Emami Navratna", "Amitabh Bachchan"],
     ["Open to All", "Dream11 • CEAT Tyres • Gulf Oil • TVS • Orient Electric", "MS Dhoni"],
